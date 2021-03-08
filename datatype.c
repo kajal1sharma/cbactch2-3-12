@@ -1,7 +1,6 @@
 
-#include <iostream>
+#include <stdio.h>
 
-using namespace std;
 int main()
 {
     //storage basics
@@ -9,9 +8,7 @@ int main()
     int a=50;
     float b=45.67;
     char c='a';
-    cout<<a<<"\n";
-    cout<<b<<"\n";
-    cout<<"this\tis\tmy\tmessage";
-    
+   // printf("%f",b);
+     printf("this is my value %f the end",b);
     return 0;
 }
