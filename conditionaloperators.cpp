@@ -47,3 +47,14 @@ cin>>b;
 // cout<<result;
     return 0;
 }
+
+/*Q:
+
+    //a and b are variables and they store numbers
+    //user/console enters these number
+    //a and b are storing numbers
+//a and b input 
+//if a>b  then output =>a is greater than b
+//a<b then output =>a is not greater than b
+
+*/
