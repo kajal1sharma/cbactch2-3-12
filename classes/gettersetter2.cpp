@@ -16,7 +16,10 @@ public:
    //declaration of function
    int  getcost();
    void setcost(int c);
-
+    void showdetail(){
+        int s=getcost();
+        cout<<s;
+    }
     
 };
 
@@ -34,6 +37,8 @@ void Car :: setcost(int c){
         
         }
     }
+    
+
 int main()
 {
    Car c;
@@ -45,6 +50,6 @@ int main()
    
    //c.cost=costofcar;
    c.setcost(costofcar);
-   cout<<c.getcost();
+   c.showdetail();
     return 0;
 }
