@@ -24,6 +24,7 @@ public:
 };
 
 //define function
+//::  scope resolution operator
 int Car:: getcost(){
         return cost;
     }
