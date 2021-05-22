@@ -7,7 +7,9 @@ class Students{
     public:
     string name;
     static string schoolname;
-    
+    void print(){
+        cout<<Students::schoolname;
+    }
 };
 
 string Students::schoolname="abc public scchool";
