@@ -20,6 +20,10 @@ int main()
    Students s2;
    s2.name="dgfdgfd";
    cout<<s.name<<"  "<<s2.name<<endl;
-   cout<<Students::schoolname;
+  // cout<<Students::schoolname;
+   cout<<s.schoolname<<endl;
+   s.schoolname="hasjkdkfjkdklflskdf";
+   cout<<s2.schoolname<<endl;
+   
     return 0;
 }
