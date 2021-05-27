@@ -39,3 +39,29 @@ int main()
 //   }
     return 0;
 }
+
+/*
+#include <iostream>
+#include <stdexcept>
+using namespace std;
+
+
+void  print(){
+   // throw(runtime_error("iam print exce"));
+}
+void  read(){
+    throw(runtime_error("iam readd exce"));
+}
+int main()
+{
+ try{
+     print();
+     read();
+     
+ }
+ catch(runtime_error& e){
+     cout<<e.what();
+ }
+    return 0;
+}
+*/
