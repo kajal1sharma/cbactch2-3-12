@@ -23,7 +23,7 @@ fout.close();
 
 ifstream fin;
 fin.open("filehandling.cpp");
-cout<<&fin<<endl;
+
 while(fin){
     string a;
     getline(fin,a);
@@ -31,6 +31,6 @@ while(fin){
     cout<<a;
     
 }cout<<&fin;
-fin.close();
+
 return 0;
 }
