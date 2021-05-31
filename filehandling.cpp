@@ -20,5 +20,16 @@ else{
 
 fout.close();
 
+ifstream fin;
+fin.open("filehandling.cpp");
+cout<<&fin<<endl;
+while(fin){
+    string a;
+    getline(fin,a);
+    cout<<"\n";
+    cout<<a;
+    
+}cout<<&fin;
+fin.close();
 return 0;
 }
